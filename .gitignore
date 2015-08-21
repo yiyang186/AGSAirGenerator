@@ -1,0 +1,8 @@
+input/
+recoder_index/
+output.air
+*.air
+*.csv
+*.xlsx
+*.xls
+*.pyc
