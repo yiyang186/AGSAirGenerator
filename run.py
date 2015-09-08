@@ -8,7 +8,6 @@ sys.setdefaultencoding("utf-8")
 
 today = lib.others.gettoday()
 recoders = lib.getindices.get_fdr_indices({})
-print recoders
 
 # ouput .air file from ./input/*.xls or *.xlsx
 output = csv.writer(file('..'+os.sep+'output.air', 'wb'), delimiter='\t')
